@@ -1,0 +1,276 @@
+.landing-page {
+    background-color: rgb(254, 254, 254);
+}
+
+.landing-page header {
+    width: 100%;
+}
+
+.landing-page .header-inner {
+    max-width: 100%;
+    padding-left: 30px;
+}
+
+.landing-page .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.landing-page .wrapper-inner {
+    padding: 150px 0 20px 0;
+    background-color: rgb(254, 254, 254);
+    width: 100%;
+}
+
+.landing-page footer {
+    width: 100%;
+}
+
+.landing-page h1 {
+    font-size: 24px;
+}
+
+.call-btn {
+    margin-top: 30px;
+    padding: 13px 32px;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+.lp-head {
+    margin-bottom: 74px;
+}
+
+.lp-head__firts-row {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.first-row__wrapper {
+    padding: 50px 0;
+}
+
+.video-wrap {
+    vertical-align: bottom;
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+}
+
+.video-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.lp-head__second-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.unique-desc {
+    max-width: 60%;
+    margin-left: 60px;
+    padding: 0 15px;
+}
+
+.unique-desc h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+
+.unique-desc p {
+    line-height: 1.2;
+}
+
+.lp-main-image__wrapper {
+    overflow: hidden;
+    width: 947px;
+}
+
+.lp-main-image__wrapper img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+.benefits {
+    margin-bottom: 110px;
+}
+
+.benefits h2,
+.how-it-works h2,
+.our-clients h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.benefits h2 {
+    margin-bottom: 50px;
+}
+
+.how-it-works h2,
+.our-clients h2 {
+    margin-bottom: 23px;
+}
+
+.benefits img {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 7px;
+}
+
+.benefits h3 {
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.benefits p {
+    text-align: center;
+    line-height: 19px;
+    padding-bottom: 0;
+}
+
+.special-width-container {
+    max-width: 1510px;
+    margin: 0 auto;
+}
+
+.how-it-works__title {
+    margin-bottom: 63px;
+}
+
+
+.how-it-works p {
+    text-align: center;
+    line-height: 19px;
+    padding-bottom: 0;
+}
+
+
+.how-it-works .num-ico {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 20px auto;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.num-ico span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.our-clients__title {
+    margin-bottom: 40px;
+}
+
+.slider-clients__img-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider-clients__img-wrapper img {
+    padding: 0 10px;   
+    object-fit: cover;
+    width: 100%;
+}
+
+.slider-clients .owl-theme .owl-controls .owl-page{
+    display: inline-block;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    display: block;
+    height: 4px;
+    width: 30px;
+    margin: 5px 7px;
+    background-color: #000000;
+    opacity: 0.2; 
+    transition: all .3s ease-out;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+    opacity: 1; 
+}
+
+@media only screen and (max-width: 756px) {
+    .landing-page .wrapper-inner {
+        padding: 100px 0 20px 0;
+    }
+    
+    .landing-page .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .lp-head {
+        margin-bottom: 20px;
+    }
+
+    .first-row__wrapper {
+        padding: 0 0 10px 0;
+    }
+
+    .first-row__wrapper h1 {
+        text-align: center;
+    }
+
+    .first-row__wrapper .page-title {
+        padding: 0;
+    }
+
+    .call-btn {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .lp-head__second-row {
+        flex-direction: column;
+    }
+
+    .lp-main-image__wrapper {
+        width: 100%;
+    }
+
+    .unique-desc {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .benefits {
+        margin-bottom: 30px;
+    }
+
+    .benefits-title {
+        margin-bottom: 20px;
+    }
+
+    .how-it-works__title {
+        margin-bottom: 20px;
+    }
+
+    .slider-clients__img-wrapper img {
+        padding: 0;   
+        object-fit: cover;
+        width: 100%;
+    }
+}
